@@ -181,7 +181,7 @@ body {
   }
 }
 
-@media (min-width: 250px) and (max-width: 800px) {
+@media (min-width: 250px) and (max-width: 868px) {
   body {
     text-align: center;
     overflow-x: hidden;
