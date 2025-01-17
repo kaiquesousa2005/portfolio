@@ -14,7 +14,6 @@ body {
   margin-top: 20px;
 }
 
-
 .icons-tecnologias {
   display: flex;
   flex-wrap: wrap;
@@ -118,7 +117,6 @@ body {
   font-size: 18px;
 }
 
-/* Tela de carregamento */
 .loading-screen {
   position: fixed;
   top: 0;
@@ -160,7 +158,6 @@ body {
   transition: opacity 0.9s ease-out, transform 0.9s ease-out;
 }
 
-/* Estado ativo: animação completa */
 .animate.active {
   opacity: 1;
   transform: translateY(0);
@@ -181,5 +178,125 @@ body {
   }
   to {
     border-color: #00ff88;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 400px) {
+  body {
+    text-align: center;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+  }
+
+  nav ul li a {
+    font-size: 13px;
+  }
+
+  .perfil {
+    width: 150px;
+    height: 160px;
+  }
+  .icons-tecnologias {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+  .text-5xl,
+  .text-6xl {
+    font-size: 24px;
+  }
+
+  .animate {
+    padding: 5px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .timeline-content h3 {
+    font-size: 18px;
+  }
+
+  #contato {
+    padding: 40px 16px;
+  }
+
+  #contato h2 {
+    font-size: 1.75rem;
+    margin-bottom: 16px;
+  }
+
+  #contato p {
+    font-size: 1rem;
+    margin-bottom: 24px;
+  }
+
+  #contato .social-button {
+    padding: 12px;
+    margin: 0px;
+  }
+
+  #contato .social-button i {
+    font-size: 1.5rem;
+  }
+
+  #contato .flex {
+    text-align: center;
+    gap: 8px;
+  }
+
+  footer {
+    background-color: #1a202c;
+    text-align: center;
+    padding: 16px;
+  }
+
+  footer p {
+    color: #a0aec0;
+    font-size: 0.875rem;
+  }
+
+  #projects h3 {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+  }
+
+  #projects h4 {
+    font-size: 1.125rem;
+    margin-bottom: 12px;
+  }
+
+  #projects p {
+    font-size: 0.875rem;
+  }
+
+  #projects .grid {
+    gap: 16px;
+  }
+
+  #projects .grid > div {
+    padding: 16px;
+  }
+
+  #projects img {
+    margin-bottom: 12px;
+  }
+  #projects {
+    padding: 0;
+    margin-bottom: 15px;
+  }
+  #experience-formation {
+    padding: 0 3px;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  #about {
+    padding: 1.3rem;
+    text-align: center;
+  }
+  #about #p {
+    font-size: 13px;
   }
 }
