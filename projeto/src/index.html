@@ -1,145 +1,173 @@
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Portfolio - Kaique Sousa</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="script.js"></script>
 
-    <link
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-  rel="stylesheet"
-/>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfolio - Kaique Sousa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="script.js"></script>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap" rel="stylesheet" />
 
-  </head>
-  <body class="bg-gray-800 text-gray-200">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
+</head>
 
-    <div id="loading-screen" class="loading-screen">
-      <div class="terminal">
-        <span class="line">Carregando portfolio...</span>
-        <span class="line">Inicializando interface...</span>
-        <span class="line">Pronto!</span>
-      </div>
+<body class="bg-gray-800 text-gray-200">
+  <div id="loading-screen" class="loading-screen">
+    <div class="terminal">
+      <span class="line">Carregando portfolio...</span>
+      <span class="line">Inicializando interface...</span>
+      <span class="line">Pronto!</span>
     </div>
-    
+  </div>
 
-    <!-- Header -->
-    <header class="flex flex-col sm:flex-row items-center justify-between p-5 bg-gray-800 shadow-lg">
-      <h1 class="text-3xl sm:text-4xl font-bold glow-text">Kaique Marlon</h1><br>
-      <nav>
-        <ul class="flex flex-col sm:flex-row space-y-1 sm:space-y-0 sm:space-x-6">
-          <li><a href="#about" class="hover:text-cyan-400 transition">Sobre Mim</a></li>
-          <li><a href="#projects" class="hover:text-cyan-400 transition">Projetos</a></li>
-          <li><a href="#contato" class="hover:text-cyan-400 transition">Contato</a></li>
-          <li><a href="#experience-formation" class="hover:text-cyan-400 transition">Experiência e Formação</a></li>
-        </ul>
-        
-      </nav>
-    </header>
-    
-    <section class="flex flex-col items-center justify-center h-screen bg-gray-900 animate">
-      <h2 class="text-2xl sm:text-5xl md:text-6xl font-extrabold glow-text">
-        Welcome to my Portfolio
-      </h2>
-      <img class="perfil" src="foto perfil.jpeg" alt="">
-      <p class="mt-4 text-sm sm:text-xl text-gray-400 animate-pulse">
-        Desenvolvedor Web | Full Stack | Freelancer
-      </p>
-      <a href="#projects"
-         class="mt-6 px-4 py-2 sm:px-6 sm:py-3 bg-cyan-500 text-gray-900 font-bold rounded-lg shadow-lg hover:bg-cyan-400 transition">
-        Visualizar meus Projetos
-      </a>
-    </section>
+  <!-- Header -->
+  <header class="flex flex-col sm:flex-row items-center justify-between p-5 bg-gray-800 shadow-lg">
+    <h1 class="text-3xl sm:text-4xl font-bold glow-text">Kaique Marlon</h1>
+    <br />
+    <nav>
+      <ul class="flex flex-col sm:flex-row space-y-1 sm:space-y-0 sm:space-x-6">
+        <li>
+          <a href="#about" class="hover:text-cyan-400 transition">Sobre Mim</a>
+        </li>
+        <li>
+          <a href="#projects" class="hover:text-cyan-400 transition">Projetos</a>
+        </li>
+        <li>
+          <a href="#contato" class="hover:text-cyan-400 transition">Contato</a>
+        </li>
+        <li>
+          <a href="#experience-formation" class="hover:text-cyan-400 transition">Experiência e Formação</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- Sobre Mim -->
-    <section id="about" class="p-10 animate">
-      <h3 id="h3" class="text-3xl font-bold border-b-4 border-cyan-500 inline-block pb-2 mb-6 animate-bounce">
-        Sobre mim
-      </h3>
-      <p id="p" class="leading-relaxed text-gray-300 text-lg">
-        Olá, me chamo Kaique Marlon Freire Sousa e atualmente moro em Fortaleza-CE. Sou Desenvolvedor Full-Stack com graduação em Análise e Desenvolvimento de Sistemas pela Universidade de Fortaleza. Minha paixão por tecnologia começou cedo e, desde então, venho me dedicando a transformar ideias em soluções reais através do desenvolvimento de software. Tenho experiência com diversas tecnologias, incluindo HTML, CSS e JavaScript, além de frameworks e bibliotecas modernas como React, Tailwind CSS e Bootstrap, que utilizo para criar interfaces dinâmicas e atrativas.
-      </p>
-      <br>
-      <p id="p" class="leading-relaxed text-gray-300 text-lg">
-        No backend, trabalho com Node.js e tenho amplo conhecimento em bancos de dados, tanto relacionais quanto não relacionais, como PostgreSQL, Firebase, MongoDB e SQL. Durante minha jornada, participei de projetos freelancers e colaborei com equipes multidisciplinares, desenvolvendo soluções escaláveis e personalizadas para diferentes necessidades. Estou sempre aberto a novos desafios, seja em contratos CLT ou PJ, e procuro oportunidades que me permitam crescer profissionalmente enquanto contribuo para o sucesso das empresas e clientes.
-      </p>
-      <br>
-      <p id="p" class="leading-relaxed text-gray-300 text-lg">
-        Meus trabalhos têm como objetivo principal criar interfaces visualmente impactantes e responsivas, focando na experiência do usuário. Prezo por facilitar a interação e garantir que as aplicações sejam intuitivas e funcionais. Além disso, acredito na importância de manter-me atualizado com as tendências tecnológicas, o que me motiva a estudar constantemente novas ferramentas e práticas no desenvolvimento web. Meu compromisso é oferecer soluções de alta qualidade que não apenas atendam às expectativas, mas também proporcionem uma experiência única e positiva aos usuários finais.
-      </p>
-      <br>
-      <p id="p" class="leading-relaxed text-gray-300 text-lg">
-        Além da tecnologia, gosto de aproveitar meu tempo livre com hobbies que me ajudam a relaxar e me manter inspirado. Sou apaixonado por música, adoro explorar diferentes gêneros. Também gosto de jogar videogames, pois acredito que eles são uma ótima forma de estimular a criatividade e a resolução de problemas. Nos momentos de lazer, gosto de praticar esportes, como academia e o volei, esses esportes me auxiliam a ter mais disposição em meu dia a dia e aumentar meu foco na disciplina, também gosto de assistir a séries e filmes e sempre estou em busca de histórias que me inspirem ou que me façam refletir. Esses hobbies me ajudam a manter o equilíbrio entre trabalho e vida pessoal, além de trazer novas perspectivas que aplico no meu dia a dia como desenvolvedor.
-      </p>
-      
+  <section class="flex flex-col items-center justify-center h-screen bg-gray-900 animate">
+    <h2 class="text-2xl sm:text-5xl md:text-6xl font-extrabold glow-text">
+      Welcome to my Portfolio
+    </h2>
+    <img class="perfil" src="foto perfil.jpeg" alt="" />
+    <p class="mt-4 text-sm sm:text-xl text-gray-400 animate-pulse">
+      Desenvolvedor Web | Full Stack | Freelancer
+    </p>
+    <a href="#projects"
+      class="mt-6 px-4 py-2 sm:px-6 sm:py-3 bg-cyan-500 text-gray-900 font-bold rounded-lg shadow-lg hover:bg-cyan-400 transition">
+      Visualizar meus Projetos
+    </a>
+  </section>
 
-    </section><br>
+  <!-- Sobre Mim -->
+  <section id="about" class="p-10 animate">
+    <h3 id="h3" class="text-3xl font-bold border-b-4 border-cyan-500 inline-block pb-2 mb-6 animate-bounce">
+      Sobre mim
+    </h3>
+    <p id="p" class="leading-relaxed text-gray-300 text-lg">
+      Olá, me chamo Kaique Marlon Freire Sousa e atualmente moro em
+      Fortaleza-CE. Sou Desenvolvedor Full-Stack com graduação em Análise e
+      Desenvolvimento de Sistemas pela Universidade de Fortaleza. Minha paixão
+      por tecnologia começou cedo e, desde então, venho me dedicando a
+      transformar ideias em soluções reais através do desenvolvimento de
+      software. Tenho experiência com diversas tecnologias, incluindo HTML,
+      CSS e JavaScript, além de frameworks e bibliotecas modernas como React,
+      Tailwind CSS e Bootstrap, que utilizo para criar interfaces dinâmicas e
+      atrativas.
+    </p>
+    <br />
+    <p id="p" class="leading-relaxed text-gray-300 text-lg">
+      No backend, trabalho com Node.js e tenho amplo conhecimento em bancos de
+      dados, tanto relacionais quanto não relacionais, como PostgreSQL,
+      Firebase, MongoDB e SQL. Durante minha jornada, participei de projetos
+      freelancers e colaborei com equipes multidisciplinares, desenvolvendo
+      soluções escaláveis e personalizadas para diferentes necessidades. Estou
+      sempre aberto a novos desafios, seja em contratos CLT ou PJ, e procuro
+      oportunidades que me permitam crescer profissionalmente enquanto
+      contribuo para o sucesso das empresas e clientes.
+    </p>
+    <br />
+    <p id="p" class="leading-relaxed text-gray-300 text-lg">
+      Meus trabalhos têm como objetivo principal criar interfaces visualmente
+      impactantes e responsivas, focando na experiência do usuário. Prezo por
+      facilitar a interação e garantir que as aplicações sejam intuitivas e
+      funcionais. Além disso, acredito na importância de manter-me atualizado
+      com as tendências tecnológicas, o que me motiva a estudar constantemente
+      novas ferramentas e práticas no desenvolvimento web. Meu compromisso é
+      oferecer soluções de alta qualidade que não apenas atendam às
+      expectativas, mas também proporcionem uma experiência única e positiva
+      aos usuários finais.
+    </p>
+    <br />
+    <p id="p" class="leading-relaxed text-gray-300 text-lg">
+      Além da tecnologia, gosto de aproveitar meu tempo livre com hobbies que
+      me ajudam a relaxar e me manter inspirado. Sou apaixonado por música,
+      adoro explorar diferentes gêneros. Também gosto de jogar videogames,
+      pois acredito que eles são uma ótima forma de estimular a criatividade e
+      a resolução de problemas. Nos momentos de lazer, gosto de praticar
+      esportes, como academia e o volei, esses esportes me auxiliam a ter mais
+      disposição em meu dia a dia e aumentar meu foco na disciplina, também
+      gosto de assistir a séries e filmes e sempre estou em busca de histórias
+      que me inspirem ou que me façam refletir. Esses hobbies me ajudam a
+      manter o equilíbrio entre trabalho e vida pessoal, além de trazer novas
+      perspectivas que aplico no meu dia a dia como desenvolvedor.
+    </p>
 
+    <br />
 
-      <div class="icons-tecnologias">
-        <i class="devicon-html5-plain" style="color: #E34F26;"></i>
-        <i class="devicon-css3-plain" style="color: #1572B6;"></i>
-        <i class="devicon-javascript-plain" style="color: #F7DF1E;"></i>
-        <i class="devicon-react-original" style="color: #61DAFB;"></i>
-        <i class="devicon-nodejs-plain" style="color: #339933;"></i>
-        <i class="devicon-typescript-plain" style="color: #3178C6;"></i>
-        <i class="devicon-postgresql-plain" style="color: #336791;"></i>
-        <i class="devicon-vscode-plain" style="color: #007ACC;"></i>
-        <i class="devicon-bootstrap-plain" style="color: #7952B3;"></i>
-        <i class="devicon-tailwindcss-plain" style="color: #06B6D4;"></i>
-        <i class="devicon-vuejs-plain" style="color: #42B883;"></i>
-        <i class="devicon-webpack-plain" style="color: #8DD6F9;"></i>
-        <i class="devicon-firebase-plain" style="color: #FFCA28;"></i>
-        <i class="devicon-github-original" style="color: #181717;"></i>
-        <i class="devicon-express-original" style="color: #000000;"></i>
-        <i class="devicon-npm-original-wordmark" style="color: #CB3837;"></i>
-        <i class="devicon-nextjs-original" style="color: #000000;"></i>
-        <i class="devicon-mongodb-plain" style="color: #47A248;"></i>
-        <i class="devicon-materialui-plain" style="color: #0081CB;"></i>
-      </div>
-    </section>
-<!-- OS ICONES DO DEVICON -->
-<br>
-    <!-- Seção de Experiencia -->
+    <div class="icons-tecnologias">
+      <i class="devicon-html5-plain" style="color: #e34f26"></i>
+      <i class="devicon-css3-plain" style="color: #1572b6"></i>
+      <i class="devicon-javascript-plain" style="color: #f7df1e"></i>
+      <i class="devicon-react-original" style="color: #61dafb"></i>
+      <i class="devicon-nodejs-plain" style="color: #339933"></i>
+      <i class="devicon-typescript-plain" style="color: #3178c6"></i>
+      <i class="devicon-postgresql-plain" style="color: #336791"></i>
+      <i class="devicon-vscode-plain" style="color: #007acc"></i>
+      <i class="devicon-bootstrap-plain" style="color: #7952b3"></i>
+      <i class="devicon-tailwindcss-plain" style="color: #06b6d4"></i>
+      <i class="devicon-vuejs-plain" style="color: #42b883"></i>
+      <i class="devicon-webpack-plain" style="color: #8dd6f9"></i>
+      <i class="devicon-firebase-plain" style="color: #ffca28"></i>
+      <i class="devicon-github-original" style="color: #181717"></i>
+      <i class="devicon-express-original" style="color: #000000"></i>
+      <i class="devicon-npm-original-wordmark" style="color: #cb3837"></i>
+      <i class="devicon-nextjs-original" style="color: #000000"></i>
+      <i class="devicon-mongodb-plain" style="color: #47a248"></i>
+      <i class="devicon-materialui-plain" style="color: #0081cb"></i>
+    </div>
+  </section>
+  <!-- OS ICONES DO DEVICON -->
+  <br />
+  <!-- Seção de Experiencia -->
 
-    <section id="experience-formation" class="animate">
-      <div class="container">
-        <h2 class="section-title">Experiência Profissional</h2>
-        <div class="timeline">
+  <section id="experience-formation" class="animate">
+    <div class="container">
+      <h2 class="section-title">Experiência Profissional</h2>
+      <div class="timeline">
+        <!-- Experiencia da MCAR -->
 
-          <!-- Experiencia da MCAR -->
-
-          <div class="timeline-item">
-            <div class="timeline-content">
-              <h3>MCar Veículos</h3>
-              <span class="timeline-date">2022 - Atual</span>
-              <p>
-                Trabalhei como consultor de vendas de veículos automotivos com foco em
-                atendimento ao cliente e auxiliar em conserto veícular, fechei
-                contrato para ser responsavel na criação de interfaces modernas
-                e responsivas utilizando React e Banco de Dados para a criação
-                de site e sistemas para a MCar Veículos.
-              </p>
-            </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>MCar Veículos</h3>
+            <span class="timeline-date">2022 - Atual</span>
+            <p>
+              Trabalhei como consultor de vendas de veículos automotivos com
+              foco em atendimento ao cliente e auxiliar em conserto veícular,
+              fechei contrato para ser responsavel na criação de interfaces
+              modernas e responsivas utilizando React e Banco de Dados para a
+              criação de site e sistemas para a MCar Veículos.
+            </p>
           </div>
-          
-          <!-- Futuras Experiencias -->
+        </div>
 
-          
+        <!-- Futuras Experiencias -->
 
         <!-- Área da Formação -->
 
         <h2 class="section-title">Formação Acadêmica</h2>
         <div class="timeline">
-
           <!-- Formação na Unifor -->
 
           <div class="timeline-item">
@@ -148,9 +176,11 @@
               <h3 class="local">UNIFOR - Universidade de Fortaleza</h3>
               <span class="timeline-date">2023 - 2025</span>
               <p>
-                Graduação feita na Universidade de Fortaleza (Unifor). Curso focado em
-                desenvolvimento de softwares, arquitetura de sistemas, logica de
-                programação e as principais linguagens para os trabalhos e atividades academicas são: Java e JavaScript.
+                Graduação feita na Universidade de Fortaleza (Unifor). Curso
+                focado em desenvolvimento de softwares, arquitetura de
+                sistemas, logica de programação e as principais linguagens
+                para os trabalhos e atividades academicas são: Java e
+                JavaScript.
               </p>
             </div>
           </div>
@@ -163,9 +193,11 @@
               <h3 class="local">Digital College</h3>
               <span class="timeline-date">2023 - 2024</span>
               <p>
-                Curso feito na Digital College. Curso focado em ensinar todos os requesitos para se tornar um desenvolvedor full stack, 
-                ensinando a ter dominio em diversos frameworks e bibliotecas como HTML/CSS, Git/GitHub, BootStrap, JavaScript, React, 
-                Banco de Dados, Node.js, Postgress, Automatização de testes.
+                Curso feito na Digital College. Curso focado em ensinar todos
+                os requesitos para se tornar um desenvolvedor full stack,
+                ensinando a ter dominio em diversos frameworks e bibliotecas
+                como HTML/CSS, Git/GitHub, BootStrap, JavaScript, React, Banco
+                de Dados, Node.js, Postgress, Automatização de testes.
               </p>
             </div>
           </div>
@@ -178,9 +210,11 @@
               <h3 class="local">Youth Space</h3>
               <span class="timeline-date">2024 - 2025</span>
               <p>
-                Curso feito na Digital College. Curso focado em ensinar todos os requesitos para se tornar um desenvolvedor full stack, 
-                ensinando a ter dominio em diversos frameworks e bibliotecas como HTML/CSS, Git/GitHub, BootStrap, JavaScript, React, 
-                Banco de Dados, Node.js, Postgress, Automatização de testes.
+                Curso de JavaScript avançado feito na Youth Space, onde tive
+                como aprendizado a teoria e a pratica da logica de programação
+                e a logica de orientado a objetos, demonstrei dominio nas
+                atividades praticas tanto no JavaScript como em seus
+                frameworks, que inclui React, Node, Typescript, Vite e etc
               </p>
             </div>
           </div>
@@ -193,13 +227,12 @@
               <h3 class="local">Youth Space</h3>
               <span class="timeline-date">2024 - 2026</span>
               <p>
-                Curso feito na Digital College. Curso focado em ensinar todos os requesitos para se tornar um desenvolvedor full stack, 
-                ensinando a ter dominio em diversos frameworks e bibliotecas como HTML/CSS, Git/GitHub, BootStrap, JavaScript, React, 
-                Banco de Dados, Node.js, Postgress, Automatização de testes.
+                Ingles avançado focado em ter fluencia e dominio na conversação, dialogos e escrita da lingua inglesa,
+                com o intuito de crescer na área profissional e viagens para o exterior
               </p>
             </div>
           </div>
-          
+
           <!-- Formação curso de designer -->
 
           <div class="timeline-item">
@@ -208,161 +241,133 @@
               <h3 class="local">Pixels</h3>
               <span class="timeline-date">2018 - 2021</span>
               <p>
-                Curso feito na Pixels. Curso focado em ensinar os conceitos de um designer e ampliar seus conhecimentos sobre arquiteturas de design e ensina a ter dominio em diversos softwares da Adobe como Adobe Photoshop, Adobe Ilustrator, Adobe Muse, Adobe InDesign, After Effects, entre outros.
+                Curso feito na Pixels. Curso focado em ensinar os conceitos de
+                um designer e ampliar seus conhecimentos sobre arquiteturas de
+                design e ensina a ter dominio em diversos softwares da Adobe
+                como Adobe Photoshop, Adobe Ilustrator, Adobe Muse, Adobe
+                InDesign, After Effects, entre outros.
               </p>
             </div>
           </div>
 
         </div>
       </div>
-    </section>
+  </section>
 
+  <!-- Seção de Projetos -->
+  <section id="projects" class="p-10 bg-gray-800 animate">
+    <h3 class="text-3xl font-bold border-b-4 border-cyan-500 inline-block pb-2 mb-6 animate-bounce">
+      Projetos
+    </h3>
 
-    <!-- Seção de Projetos -->
-    <section id="projects" class="p-10 bg-gray-800 animate">
-      <h3
-        class="text-3xl font-bold border-b-4 border-cyan-500 inline-block pb-2 mb-6 animate-bounce"
-      >
-        Projetos
-      </h3>
+    <!-- Projeto 1 -->
 
-      <!-- Projeto 1 -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-gray-900 p-6 rounded-lg shadow-lg hover:scale-105 transition">
+        <h4 class="text-xl font-bold mb-2">
+          Site para a empresa MCAR Veículos
+        </h4>
+        <br />
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div
-          class="bg-gray-900 p-6 rounded-lg shadow-lg hover:scale-105 transition"
-        >
-          <h4 class="text-xl font-bold mb-2">
-            Site para a empresa MCAR Veículos
-          </h4>
-          <br />
-          
-          <a href="https://site-mcar.vercel.app/" target="_blank" rel="noopener noreferrer">
-            <img src="download.png" alt="" />
-          </a>
-          <br />
-          <p class="text-gray-400">
-            Site para uma loja de revenda de carros com bastante facilidade no
-            uso do usuario, 5 paginas (incluindo tela de DashBoard), aplicação
-            de Banco de Dados, interface responsiva e feito apenas com o React
-            App, CSS e Firebase como Banco de Dados.
-          </p>
-        </div>
-
-        <!-- Projeto 2 -->
-
-        <div
-          class="bg-gray-900 p-6 rounded-lg shadow-lg hover:scale-105 transition"
-        >
-          <h4 class="text-xl font-bold mb-2">
-            Sistema de Gerenciamento de Gastos
-          </h4>
-          <br />
-          <a href="https://sistema-mcar-joid.vercel.app/" target="_blank" rel="noopener noreferrer">
-            <img src="download (1).png" alt="" />
-          </a>
-          <br />
-          <p class="text-gray-400">
-            Sistema para melhorar o gerenciamento de gastos em veículos da
-            empresa MCAR Veículos, inclui 3 paginas, login permitido somente por
-            meio de autenticação pre-definida, banco de dados, layout responsivo
-            e download de dados por meio de arquivo PDF
-          </p>
-        </div>
-
-        <!-- Projeto 3 -->
-         
-        <div
-          class="bg-gray-900 p-6 rounded-lg shadow-lg hover:scale-105 transition"
-        >
-          <h4 class="text-xl font-bold mb-2">
-            Sistema de Gestão de Funcionario
-          </h4>
-          <br />
-          <a href="https://formulario-de-funcionario.web.app/" target="_blank" rel="noopener noreferrer">
-            <img src="download 2.png" alt="" />
-          </a>
-          <br />
-          <p class="text-gray-400">
-            Sistema para cadastrar funcionários, inclui 3 paginas, layout responsivo, 
-            autenticação de usuario, historico de qualquer alteração feita nos dados do funcionario
-            download de dados por meio de arquivo PDF, aplicação de Firebase como Banco 
-            de Dados e a utilização do React.
-          </p>
-        </div>
-
-        <!-- Projeto 4 -->
-
+        <a href="https://site-mcar.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <img src="download.png" alt="" />
+        </a>
+        <br />
+        <p class="text-gray-400">
+          Site para uma loja de revenda de carros com bastante facilidade no
+          uso do usuario, 5 paginas (incluindo tela de DashBoard), aplicação
+          de Banco de Dados, interface responsiva e feito apenas com o React
+          App, CSS e Firebase como Banco de Dados.
+        </p>
       </div>
-    </section>
 
-<!-- Seção de Contato -->
-<section id="contato" class="bg-gray-900 text-white py-16 px-8 animate">
-  <div class="container mx-auto max-w-4xl text-center">
-    <h2 class="text-4xl font-bold mb-6">Entre em Contato</h2>
-    <p class="text-lg text-gray-300 mb-8">
-      Conecte-se comigo pelas redes abaixo!
-    </p>
+      <!-- Projeto 2 -->
 
-    <div class="flex justify-center space-x-6 glow-text">
-      <!-- Botão WhatsApp -->
-      <a
-        href="https://wa.me/+5585985818139"
-        target="_blank"
-        class="social-button"
-        aria-label="WhatsApp"
-      >
-        <i class="fab fa-whatsapp text-2xl"></i>
-      </a>
+      <div class="bg-gray-900 p-6 rounded-lg shadow-lg hover:scale-105 transition">
+        <h4 class="text-xl font-bold mb-2">
+          Sistema de Gerenciamento de Gastos
+        </h4>
+        <br />
+        <a href="https://sistema-mcar-joid.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <img src="download (1).png" alt="" />
+        </a>
+        <br />
+        <p class="text-gray-400">
+          Sistema para melhorar o gerenciamento de gastos em veículos da
+          empresa MCAR Veículos, inclui 3 paginas, login permitido somente por
+          meio de autenticação pre-definida, banco de dados, layout responsivo
+          e download de dados por meio de arquivo PDF
+        </p>
+      </div>
 
-      <!-- Botão Instagram -->
-      <a
-        href="https://www.instagram.com/_kaiquemsf/"
-        target="_blank"
-        class="social-button"
-        aria-label="Instagram"
-      >
-        <i class="fab fa-instagram text-2xl"></i>
-      </a>
+      <!-- Projeto 3 -->
 
-      <!-- Botão Email -->
-      <a
-        href="mailto:kaique.freire@hotmail.com"
-        class="social-button"
-        aria-label="Email"
-      >
-        <i class="fas fa-envelope text-2xl"></i>
-      </a>
+      <div class="bg-gray-900 p-6 rounded-lg shadow-lg hover:scale-105 transition">
+        <h4 class="text-xl font-bold mb-2">
+          Sistema de Gestão de Funcionario
+        </h4>
+        <br />
+        <a href="https://formulario-de-funcionario.web.app/" target="_blank" rel="noopener noreferrer">
+          <img src="download 2.png" alt="" />
+        </a>
+        <br />
+        <p class="text-gray-400">
+          Sistema para cadastrar funcionários, inclui 3 paginas, layout
+          responsivo, autenticação de usuario, historico de qualquer alteração
+          feita nos dados do funcionario download de dados por meio de arquivo
+          PDF, aplicação de Firebase como Banco de Dados e a utilização do
+          React.
+        </p>
+      </div>
 
-      <!-- Botão LinkedIn -->
-      <a
-        href="https://www.linkedin.com/in/kaique-marlon-93a7ba272/"
-        target="_blank"
-        class="social-button"
-        aria-label="LinkedIn"
-      >
-        <i class="fab fa-linkedin text-2xl"></i>
-      </a>
-
-      <!-- Botão GitHub -->
-      <a
-        href="https://github.com/kaiquesousa2005"
-        target="_blank"
-        class="social-button"
-        aria-label="GitHub"
-      >
-        <i class="fab fa-github text-2xl"></i>
-      </a>
+      <!-- Projeto 4 -->
     </div>
-  </div>
-</section>
+  </section>
 
-
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-center py-6">
-      <p class="text-gray-500">
-        &copy; Desenvolvedor Kaique Sousa. Todos os direitos reservados.
+  <!-- Seção de Contato -->
+  <section id="contato" class="bg-gray-900 text-white py-16 px-8 animate">
+    <div class="container mx-auto max-w-4xl text-center">
+      <h2 class="text-4xl font-bold mb-6">Entre em Contato</h2>
+      <p class="text-lg text-gray-300 mb-8">
+        Conecte-se comigo pelas redes abaixo!
       </p>
-    </footer>
-  </body>
+
+      <div class="flex justify-center space-x-6 glow-text">
+        <!-- Botão WhatsApp -->
+        <a href="https://wa.me/+5585985818139" target="_blank" class="social-button" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp text-2xl"></i>
+        </a>
+
+        <!-- Botão Instagram -->
+        <a href="https://www.instagram.com/_kaiquemsf/" target="_blank" class="social-button" aria-label="Instagram">
+          <i class="fab fa-instagram text-2xl"></i>
+        </a>
+
+        <!-- Botão Email -->
+        <a href="mailto:kaique.freire@hotmail.com" class="social-button" aria-label="Email">
+          <i class="fas fa-envelope text-2xl"></i>
+        </a>
+
+        <!-- Botão LinkedIn -->
+        <a href="https://www.linkedin.com/in/kaique-marlon-93a7ba272/" target="_blank" class="social-button"
+          aria-label="LinkedIn">
+          <i class="fab fa-linkedin text-2xl"></i>
+        </a>
+
+        <!-- Botão GitHub -->
+        <a href="https://github.com/kaiquesousa2005" target="_blank" class="social-button" aria-label="GitHub">
+          <i class="fab fa-github text-2xl"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-center py-6">
+    <p class="text-gray-500">
+      &copy; Desenvolvedor Kaique Sousa. Todos os direitos reservados.
+    </p>
+  </footer>
+</body>
+
 </html>
